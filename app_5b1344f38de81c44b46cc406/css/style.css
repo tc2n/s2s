@@ -281,13 +281,13 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
 }
 .fh5co-video:hover a {
   position: relative;
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9 );
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -1902,4 +1902,10 @@ form label {
 }
 .sticky li p a:hover{
     text-decoration:underline;
+}
+
+
+.bgd {
+  background: rgb(255,149,1);
+background: linear-gradient(129deg, rgba(255,149,1,0.7) 0%, rgba(255,255,255,0.7) 51%, rgba(30,172,0,0.7) 100%);
 }
